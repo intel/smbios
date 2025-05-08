@@ -60,7 +60,7 @@ firmware.
 <td>Block Length</td>
 <td>1</td>
 <td>08h</td>
-<td>Length of Processor Use Condition Data structure</td>
+<td>Length of Processor Use Condition Data structure in Bytes</td>
 </tr>
 <tr>
 <td>02h</td>
