@@ -84,8 +84,7 @@ firmware.
 <p>Bits 15:8    Temperature Range</p>
 <p>                    0x00 : Commercial Temp Range</p>
 <p>                    0x01 : Extended Temp Range</p>
-<p>                    0x02 : Reserved</p>
-<p>                    0x03-0xFF : Reserved</p>
+<p>                    0x02-0xFF : Reserved</p>
 <p>Bits 31:16   Reserved</p></td>
 </tr>
 </tbody>
