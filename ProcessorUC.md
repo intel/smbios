@@ -75,18 +75,18 @@ firmware.
 <td>04</td>
 <td>Use Condition Attribute</td>
 <td>4</td>
-<td>Bit Field</td>
-<td><p>Bits 1:0    Processor Use Condition</p>
-<p>                    00 : Client Use Condition</p>
-<p>                    01 : Embedded Use Condition</p>
-<p>                    10 : Industrial Use Condition</p>
-<p>                    11 : Reserved</p>
-<p>Bits 3:2    Temperature Range</p>
-<p>                    00 : Commercial Temp Range</p>
-<p>                    01 : Extended Temp Range</p>
-<p>                    10 : Reserved</p>
-<p>                    11 : Reserved</p>
-<p>Bits 31:4   Reserved</p></td>
+<td>Varies</td>
+<td><p>Bits 7:0    Processor Use Condition</p>
+<p>                    0x00 : Client Use Condition</p>
+<p>                    0x01 : Embedded Use Condition</p>
+<p>                    0x02 : Industrial Use Condition</p>
+<p>                    0x03-0xFF : Reserved</p>
+<p>Bits 15:8    Temperature Range</p>
+<p>                    0x00 : Commercial Temp Range</p>
+<p>                    0x01 : Extended Temp Range</p>
+<p>                    0x02 : Reserved</p>
+<p>                    0x03-0xFF : Reserved</p>
+<p>Bits 31:16   Reserved</p></td>
 </tr>
 </tbody>
 </table>
